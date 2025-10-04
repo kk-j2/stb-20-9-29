@@ -1,0 +1,72 @@
+  @font-face {
+  font-family: "keifont";
+  src: url("keifont.ttf") format("truetype");
+  }
+
+body {
+    font-family: "keifont", sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7f0ff;
+  }
+
+  .login-box {
+    background: white;
+    padding: 60px 50px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 400px;
+  }
+
+  .login-box h2 {
+    font-family: "keifont", sans-serif;
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: #333;
+  }
+
+  .login-box input {
+    font-family: "keifont", sans-serif;
+    width: 100%;
+    padding: 20px 0px;
+    margin-bottom: 45px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 2rem;
+    outline: none;
+    transition: 0.3s;
+  }
+
+  .login-box input:focus {
+    font-family: "keifont", sans-serif;
+    border-color: #c7f0ff;
+    box-shadow: 0 0 8px rgba(116,235,213,0.5);
+  }
+
+  .login-box button {
+    font-family: "keifont", sans-serif;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: #c7f0ff;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .login-box button:hover {
+    background: #98b4be;
+  }
+
+  .error {
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
